@@ -1,0 +1,268 @@
+body, html {
+	margin: 0 auto;
+	padding: 0;
+	width: 1600px;
+}
+* {
+	box-sizing: border-box;
+}
+.clearfix {
+	overflow: auto;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+.container {
+	display: block;
+	width: 1600px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0 20px;
+
+}
+.header {
+	width: 100%;
+	height: 140px;
+	margin: 0;
+	padding: 0 230px;
+	position: relative;
+	z-index: 10;
+}
+.header-logo {
+	width: 200px;
+	height: 250px;
+	float: left;
+}
+.header-title-1 {
+	font-family: Roboto;
+	font-size: 40px;
+	color: #292c36;
+	text-transform: uppercase;
+	margin: 0;
+	padding-top: 20px;
+
+}
+.header-title-2 {
+	font-family: Roboto;
+	font-size: 40px;
+	color: #74861c;
+	text-transform: uppercase;
+	margin: 0;
+
+}
+.section-jumbotron {
+	margin: 0 auto;
+	background: url('../image/background.jpg') center no-repeat;
+	width: 1600px;
+	height: 847px;
+	padding: 0;
+	position: relative;
+	
+}
+.jumbotron-contacts-block {
+	width: 400px;
+	height: 360px;
+	float: right;
+	margin: 0 230px;
+	position: relative;
+	z-index: 5;
+}
+
+.contacts-block-title {
+	margin: 0;
+	padding: 34px 0 16px;
+	text-align: center;
+	color: #ffffff;
+	font-family: Roboto;
+	font-size: 26px;
+
+}
+.contacts-block-info {
+	width: 260px;
+	height: 60px;
+	background: #ffffff;
+	border-radius: 5px;
+	margin: 18px auto;
+}
+
+.contacts-block-info-image {
+	width: 60px;
+	height: 60px;
+	float: left;
+}
+.contacts-block-info-description {
+	margin: 0;
+	padding: 6px 0;
+}
+.contacts-block-info-description-text {
+	font-size: 20px;
+	font-weight: 400;
+	padding:0;
+	margin: 0;
+	font-family: Roboto;
+}
+.center-vert {
+	padding: 10px;
+
+}
+.center-hor {
+	padding: 10px 90px;
+
+}
+.upper-register {
+	font-size: 12px;
+	text-align: center;
+}
+.jumbotron-semi-transparent-block {
+	width: 400px;
+	height: 360px;
+	background-color: black;
+	opacity: 0.4;
+	margin: -360px 230px;
+	padding: 0;
+	float: right;
+	position: relative;
+	z-index: 3;
+}
+.jumbotron-benefits-block {
+
+	width: 1600px;
+	height: 240px;
+	background: #292c36;
+	position: absolute;
+	bottom: 0;
+	padding: 0 315px;
+	
+}
+.benefits-block-hands {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 323px;
+	height: 240px;
+
+}
+.benefits-block-paper {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 323px;
+	height: 240px;
+
+}
+.benefits-block-money {
+	float: right;
+	margin: 0;
+	padding: 0;
+	width: 323px;
+	height: 240px;
+
+}
+.benefits-block-image {
+	margin: 20px 100px 0;
+}
+
+.benefits-block-text {
+	width: 220px;
+	text-align: center;
+	color: #fff;
+	font-size: 23px;
+	font-weight: 600;
+	margin: 0 50px;
+	font-family: Roboto;
+
+
+}
+.section-opportunities {
+	margin: 40px auto;
+	padding: 0;
+}
+.opportunities-row {
+	height: 341px;
+	width: 1600px;
+	padding: 0 232px;
+	margin: 0;
+	overflow: hidden;
+}
+.opportunities-text-col {
+	width: 568px;
+	height: 341px;
+	float: left;
+	background: #f7f7f7;
+}
+.opportunities-image-col {
+	width: 568px;
+	height: 341px;
+	float: left;
+}
+.text-col-filling {
+	height: 220px;
+	width: auto;
+	margin: 60px;
+	padding: 0;
+	font-family: Roboto;
+	
+
+}
+.text-col-filling-header {
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0 100px 20px 0;
+}
+.text-col-filling-description {
+	font-size: 11px;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+.image-col-pic {
+	width: 100%;
+	height: 100%;
+}
+.footer {
+	width: 1600px;
+	height: 80px;
+	margin: 0;
+	padding: 0;
+	background: #292c36;
+	overflow: hidden;
+}
+.footer-social-list {
+	display: inline-block;
+	margin: 0 650px;
+	padding: 0;
+	height: auto;
+}
+.footer-social-item {
+	float: left;
+	margin: 0;
+	padding: 15px 5px;
+	list-style: none;
+}
+
+.social-item-block {
+	width: 50px;
+	height: 50px;
+	background: #22252d;
+	border-radius: 50%;
+}
+.social-item-block:hover {
+	background: #00b8ee;
+
+}
+.social-item-block-image {
+	border-radius: 50%;
+	margin: 5px;
+	width: 40px;
+	height: 40px;
+}
+.cr {
+	color: #292c36;
+	margin: -20px 0 0;
+}
